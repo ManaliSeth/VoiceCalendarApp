@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image1"
+    tools:context=".screen1">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="78dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="@android:color/transparent"
+        app:srcCompat="@drawable/small_mic2" />
+
+    <EditText
+        android:id="@+id/firstname_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="You will see input here..."
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/lastname_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="74dp"
+        android:hint="Date"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="147dp"
+        android:hint="Time"
+        android:textSize="20dp" />
+
+
+
+
+
+
+</RelativeLayout>
